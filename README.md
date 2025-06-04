@@ -248,3 +248,6 @@ interface ConverterOptions {
 
 - **`benchmarkCallback`**  
   A callback function that receives the elapsed time. The default simply logs to `console.log`, but you can override it to display a UI spinner, send telemetry, etc.  
+
+<!--START_SECTION:buy-me-a-coffee-->
+<!--END_SECTION:buy-me-a-coffe-->
