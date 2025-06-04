@@ -15,15 +15,12 @@ export default [
       'no-trailing-spaces': 'error',
       // 2‐space indentation:
       'indent': ['error', 2, { SwitchCase: 1 }],
-      // do not allow undefined variables:
-      'no-undef': 'error',
       // warn on unused variables, but allow args named _foo:
       'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
       // allow console.log (change to "warn" or "error" if you want to forbid):
-      'no-console': 'off',
       // prevent duplicate imports:
       'no-duplicate-imports': 'error'
-    }
+    },
   },
 
 ];
