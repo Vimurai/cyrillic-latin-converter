@@ -249,5 +249,17 @@ interface ConverterOptions {
 - **`benchmarkCallback`**  
   A callback function that receives the elapsed time. The default simply logs to `console.log`, but you can override it to display a UI spinner, send telemetry, etc.  
 
+
+## ☕️ Support / Buy Me a Coffee
+
+If you find **Cyrillic ↔ Latin Converter** useful, you can help me by buying me a coffee.  
+Your support keeps me caffeinated—and keeps this project alive! 🙏💛
+
+<a href="https://www.buymeacoffee.com/emirkovace3" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+       alt="Buy Me A Coffee"
+       style="height: 60px !important; width: 217px !important;" />
+</a>
+
 <!--START_SECTION:buy-me-a-coffee-->
 <!--END_SECTION:buy-me-a-coffe-->
