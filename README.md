@@ -3,7 +3,7 @@
 
 A lightweight, framework-agnostic JavaScript library for converting text between Cyrillic and Latin scripts. Convert raw strings or entire DOM subtrees (in-browser) with minimal setup. Perfect for multilingual websites, blogs, or any frontend/backend project that needs fast, reliable transliteration.
 
-![npm](https://img.shields.io/npm/v/@your-org/cyrillic-latin-converter.svg) ![License](https://img.shields.io/npm/l/@your-org/cyrillic-latin-converter.svg)
+![npm](https://img.shields.io/npm/v/@vimurai/cyrillic-latin-converter.svg) ![License](https://img.shields.io/npm/l/@vimurai/cyrillic-latin-converter.svg)
 
 ---
 
@@ -64,13 +64,13 @@ A lightweight, framework-agnostic JavaScript library for converting text between
 Install via npm:
 
 ```bash
-npm install @your-org/cyrillic-latin-converter
+npm install @vimurai/cyrillic-latin-converter
 ```
 
 Or via Yarn:
 
 ```bash
-yarn add @your-org/cyrillic-latin-converter
+yarn add @vimurai/cyrillic-latin-converter
 ```
 
 ---
@@ -88,7 +88,7 @@ Use the ES module build from a CDN or your bundler:
   <meta charset="UTF-8" />
   <title>Cyrillic ↔ Latin Demo</title>
   <script type="module">
-    import { CyrillicLatinConverter } from 'https://cdn.jsdelivr.net/npm/@your-org/cyrillic-latin-converter/dist/index.esm.js';
+    import { CyrillicLatinConverter } from 'https://cdn.jsdelivr.net/npm/@vimurai/cyrillic-latin-converter/dist/index.esm.js';
 
     document.addEventListener('DOMContentLoaded', () => {
       // Initialize converter with default options
@@ -115,7 +115,7 @@ Use the ES module build from a CDN or your bundler:
 
 ```js
 // In Node.js environment (CommonJS)
-const { CyrillicLatinConverter } = require('@your-org/cyrillic-latin-converter');
+const { CyrillicLatinConverter } = require('@vimurai/cyrillic-latin-converter');
 
 (async () => {
   const converter = new CyrillicLatinConverter();
@@ -127,7 +127,7 @@ const { CyrillicLatinConverter } = require('@your-org/cyrillic-latin-converter')
 ### TypeScript
 
 ```ts
-import { CyrillicLatinConverter } from '@your-org/cyrillic-latin-converter';
+import { CyrillicLatinConverter } from '@vimurai/cyrillic-latin-converter';
 
 const converter = new CyrillicLatinConverter({
   ignoreClasses: ['no-trans'], 
