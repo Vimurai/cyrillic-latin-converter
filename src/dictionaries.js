@@ -1,6 +1,5 @@
 // src/dictionaries.js
 
-
 // 1) All single‐letter mappings Latin→Cyrillic
 export const LAT_TO_CYR = {
   a: "а", b: "б", c: "ц", d: "д", e: "е",
